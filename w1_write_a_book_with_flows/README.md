@@ -4,25 +4,40 @@ This project uses a multi-agent AI system powered by [crewai](https://www.crewai
 
 ## Installation
 
-1. **Install crewai**: Ensure you have Python >=3.10 <=3.13 installed. Run `pip install crewai`.
+1. **Install crewai**: Ensure you have Python >=3.10 <=3.13 installed. Run:
 
-2. **Install dependencies**: Navigate to your project directory and run `crewai install`.
+    ```bash
+    pip install crewai
+    ```
 
-3. **Customize env var**: Create a `.env` file under `w1_write_a_book_with_flows`, and create three vars:
+2. **Install dependencies**: Navigate to your project directory and run:
 
-```bash
-OPENAI_API_BASE=http://localhost:1234/v1
-OPENAI_API_KEY=anyway
-SERPER_API_KEY=
-```
+    ```bash
+    crewai install
+    ```
 
-For the `SERPER_API_KEY`, sign in [Serper](https://serper.dev/) to get your API key and type it here.
+3. **Customize env var**: Create a `.env` file under `w1_write_a_book_with_flows`, with three vars:
+
+    ```bash
+    OPENAI_API_BASE=http://localhost:1234/v1
+    OPENAI_API_KEY=anyway
+    SERPER_API_KEY=
+    ```
+    For the `OPENAI_API_KEY`, because we use LM Studio instead of Remote API, it can be anything.
+
+    For the `SERPER_API_KEY`, sign in [Serper](https://serper.dev/) to get your API key and type it here.
 
 4. **Install LM Studio and Llama 3.2**: Download [LM Studio](https://lmstudio.ai/) and install Llama 3.2.
 
-5. **Run Llama 3.2 in LM Studio**: Press the downloads button on the bottom-left corner, choose `hugging-quants/Llama-3.2-1B-Instruct-Q8_0-GGUF/llama-3.2-1b-instruct-q8_0.gguf` and press `Load Model`. Then go the Developer bar, and switch the status from Stopped to Running.
+5. **Run Llama 3.2 in LM Studio**: Open LM Studio. As shown below, press the downloads button on the bottom-left corner, choose `hugging-quants/Llama-3.2-1B-Instruct-Q8_0-GGUF/llama-3.2-1b-instruct-q8_0.gguf` and press `Load Model`. Then go the Developer bar, and switch the status from Stopped to Running.
 
-6. **Run the project**: Run `crewai flow kickoff` from the root folder of your project. The results will be shown on the terminal.
+6. **Run the project**: Run this from the root folder of your project:
+
+    ```bash
+    crewai flow kickoff
+    ```
+
+    The results will be shown on the terminal.
 
 ## Understanding Your Flow
 
