@@ -31,6 +31,8 @@ This project uses a multi-agent AI system powered by [crewai](https://www.crewai
 
 5. **Run Llama 3.2 in LM Studio**: Open LM Studio. As shown below, press the downloads button on the bottom-left corner, choose `hugging-quants/Llama-3.2-1B-Instruct-Q8_0-GGUF/llama-3.2-1b-instruct-q8_0.gguf` and press `Load Model`. Then go the Developer bar, and switch the status from Stopped to Running.
 
+![Alt text](assets/LM%20Studio%202025_1_17%2017_42_34-01.png)
+
 6. **Run the project**: Run this from the root folder of your project:
 
     ```bash
