@@ -10,13 +10,19 @@ This project uses a multi-agent AI system powered by [crewai](https://www.crewai
     pip install crewai
     ```
 
-2. **Install dependencies**: Navigate to your project directory and run:
+2. **Install dependencies**: Navigate to your root folder:
+
+    ```bash
+    cd w1_write_a_book_with_flows
+    ```
+
+    In `sd5976\w1_write_a_book_with_flows`, run:
 
     ```bash
     crewai install
     ```
 
-3. **Customize env var**: Create a `.env` file under `w1_write_a_book_with_flows`, with three vars:
+3. **Customize env var**: Create a `.env` file under the root folder, with three vars:
 
     ```bash
     OPENAI_API_BASE=http://localhost:1234/v1
