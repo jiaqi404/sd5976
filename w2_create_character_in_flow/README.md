@@ -47,11 +47,11 @@ This project uses a multi-agent AI system powered by [crewai](https://www.crewai
 
 ## Customization
 
-1. Add functions in `src\w2_create_character_in_flow\crews\poem_crew\poem_crew.py`.
+1. Add functions in `src\write_poem\crews\poem_crew\poem_crew.py`.
 
-2. Add task in `src\w2_create_character_in_flow\crews\poem_crew\config\tasks.yaml`.
+2. Add task in `src\write_poem\crews\poem_crew\config\tasks.yaml`.
 
-3. Add agent in `src\w2_create_character_in_flow\crews\poem_crew\config\agents.yaml`.
+3. Add agent in `src\write_poem\crews\poem_crew\config\agents.yaml`.
 
 ## Example Output
 
