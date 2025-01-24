@@ -1,0 +1,15 @@
+create_character:
+  description: >
+    Create a poet that writes the poem. Can be any gender, any major, any age. Backstory should be creative and unique. Chinese name.
+  expected_output: >
+    A unique and engaging poet for the poem.
+  agent: poem_writer
+
+write_poem:
+  description: >
+    Write a poem about how PolyU is awesome.
+    Ensure the poem is engaging and adheres to the specified sentence count of {sentence_count}.
+    At last, attach the name of the poet.
+  expected_output: >
+    A beautifully crafted poem about PolyU, with exactly {sentence_count} sentences. With the name of the poet attached.
+  agent: poem_writer
