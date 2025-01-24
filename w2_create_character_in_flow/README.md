@@ -25,7 +25,7 @@ This project uses a multi-agent AI system powered by [crewai](https://www.crewai
     crewai install
     ```
 
-3. **Customize env var**: Create a `.env` file under the root folder, with three vars:
+3. **Customize env var**: Create a `.env` file under the root folder, with two vars:
 
     ```bash
     OPENAI_API_BASE=http://localhost:1234/v1
